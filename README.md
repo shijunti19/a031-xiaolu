@@ -13,7 +13,7 @@
 ### 系统配置
 * filezilla的下载地址https://filezilla-project.org
 * cmd>ftp>exe填写filezilla的安装位置
-* 为什么不继承ftp上传，nodejs全世界好像都不支持主动上传模式！
+* 为什么不内置ftp上传，因为nodejs全世界好像都不支持主动上传模式！
 * cmd>ftp>arg这里是启动参数
 * --local={{file_path}}是固定的，当前打开文件的地址
 * 其他命令：https://wiki.filezilla-project.org/Command-line_arguments_(Client)
@@ -73,5 +73,5 @@ a031.json
 
 ---
 侵权或者其他任何问题联系
-QQ527528007
-email:527528007@qq.com
+* *** QQ527528007 ***
+* *** email:527528007@qq.com ***
