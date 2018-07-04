@@ -76,8 +76,9 @@ a031.json
 
 ### 请吃水果
 
-![微信扫一扫](https://github.com/shijunti19/a031-xiaolu/blob/master/images/alipay.jpg?raw=true)
-![支付宝扫一扫](https://github.com/shijunti19/a031-xiaolu/blob/master/images/alipay.jpg?raw=true)
+![微信扫一扫](https://github.com/shijunti19/a031-xiaolu/blob/master/images/weixin.jpg?raw=true ''微信扫一扫'')    
+
+![支付宝扫一扫](https://github.com/shijunti19/a031-xiaolu/blob/master/images/alipay.jpg?raw=true ''支付宝扫一扫'')
 # License
 
 闭源 &copy; xiaolu
