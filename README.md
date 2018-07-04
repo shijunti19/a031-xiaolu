@@ -3,14 +3,14 @@
 界面化的项目管理
 
 # 安装
-
-* 右键选择项目管理
-* 弹出填写配置保存目录，填写你要保存到哪个目录，例如D:\vscode，这样下次重装都不会丢失配置
+* 按f1输入a031，随便选择，然后会弹出输入框要求输入目录
+* 你也可以右键选择项目管理
+* 弹出填写配置保存目录，你要保存到哪个磁盘的文件夹，例如D:\vscode，这样下次重装都不会丢失配置
 
 # 使用教程
 
 ## 配置说明
-### 系统配置
+### 系统配置（a031.json）
 * filezilla的下载地址https://filezilla-project.org
 * cmd>ftp>exe填写filezilla的安装位置
 * 为什么不内置ftp上传，因为nodejs全世界好像都不支持主动上传模式！
@@ -19,8 +19,8 @@
 * 其他命令：https://wiki.filezilla-project.org/Command-line_arguments_(Client)
 * arg里一条命令一行，加载数组里
 * 当然你也可以换成其他任何ftp程序
+* 这个文件也可以存在.vscode/a031.json下面这样每个项目对应一个账号ftp
 ```json
-a031.json
 {
 	"manager": {
 		"theme": "default"
@@ -36,7 +36,7 @@ a031.json
 	}
 }
 ```
-### 项目管理配置文件
+### 项目管理配置文件（manager）
 * 都放在manager文件夹里
 * 全部使用读取文件处理，影响IO，上固态硬盘
 * manager/default.json
