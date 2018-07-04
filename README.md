@@ -67,6 +67,19 @@ a031.json
 
 ### 使用教程
 
+* 点击创建项目
+* 图片的在配置目录新建images文件夹然后放文件进去，然后填写images/1.png
+* 项目组就是文件名，例如写：网址,就会创建网址.json保存这个组的项目
+
+### 建议和DEBUG
+
+[提交建议](https://github.com/shijunti19/a031-xiaolu)
+
+### 请吃水果
+
+![微信扫一扫](https://github.com/shijunti19/a031-xiaolu/blob/master/images/weixin.jpg?raw=true)    
+![支付宝扫一扫](https://github.com/shijunti19/a031-xiaolu/blob/master/images/alipay.jpg?raw=true)
+
 # License
 
 闭源 &copy; xiaolu
