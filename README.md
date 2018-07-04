@@ -10,6 +10,9 @@
 # 使用教程
 
 * [https://translate.google.cn](https://translate.google.cn)
+# 截图
+
+![界面截图](https://github.com/shijunti19/a031-xiaolu/blob/master/images/demo.png?raw=true)   
 
 ## 配置说明
 ### 系统配置（a031.json）
