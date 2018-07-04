@@ -9,6 +9,8 @@
 
 # 使用教程
 
+* [https://translate.google.cn](https://translate.google.cn)
+
 ## 配置说明
 ### 系统配置（a031.json）
 * filezilla的下载地址https://filezilla-project.org
