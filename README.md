@@ -65,13 +65,19 @@ a031.json
 ]
 ```
 
-# 你会发现上面的都是废话，这是一个可视化插件，除了系统配置，不需要编辑项目配置文件
-
+### 使用教程
+* 点击创建项目
+图片的在配置目录新建images文件夹然后放文件进去，然后填写images/1.png
+项目组就是文件名，例如写：网址,就会创建网址.json保存这个组的项目
+### 建议和DEBUG
+[提交建议](https://github.com/shijunti19/a031-xiaolu)
+### 请吃水果
+![微信扫一扫](images/weixin.jpg ''微信扫一扫'')
+![支付宝扫一扫](images/alipay.jpg ''支付宝扫一扫'')
 # License
 
-[MIT](LICENSE.md) &copy; xiaolu
+闭源 &copy; xiaolu
 
 ---
 侵权或者其他任何问题联系
-* **QQ527528007**
-* **email:527528007@qq.com**
+* **email:vscode@a031.com**
