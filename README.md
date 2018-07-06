@@ -78,14 +78,14 @@
 - 项目图片：在用户配置目录（安装的时候填写的目录）新建images，然后把图片放进去，例如01.png，然后这里就写images/01.png，大小是固定的：360px*180px，也支持远程地址：http://www.a031.com/resources/home/images/jingbaotuan.jpg，必须https
 - 项目备注：纯粹文字
 - 项目类型：文件夹就是项目根目录，执行程序就是exe所在目录，例如可以写QQ的，就会启动QQ。
-- 额外参数：是执行程序所需要的额外参数，例如你想要点击ftp上传，就打开当前文件夹，就这样写：     
-上面的a031.json里必须填写FileZilla所在目录，如："exe": "E:/Program Files/FileZilla FTP Client/filezilla.exe"
- ftp://FTP的账号:FTP密码@FTP的IP:21     
- --local={{file_path}}     
---local={{file_path}}是固定的，这样就行了    
-换一种，你在FileZilla里新建一个文件夹a自己的服务器，然后新建站点1号3服务器   
-额外参数你就写：--site=0/a自己的服务器/1号服务器    
-其他命令：https://wiki.filezilla-project.org/Command-line_arguments_(Client)     
+- 额外参数：是执行程序所需要的额外参数，例如你想要点击ftp上传，让他自动打开当前项目文件夹，就这样写：     
+1. 上面的a031.json里必须填写FileZilla所在目录，如："exe": "E:/Program Files/FileZilla FTP Client/filezilla.exe"
+2. ftp://FTP的账号:FTP密码@FTP的IP:21     
+   --local={{file_path}}     
+3. --local={{file_path}}是固定的，这样就行了    
+4. 换一种，你在FileZilla里新建一个文件夹a自己的服务器，然后新建站点1号3服务器   
+5. 额外参数你就写：--site=0/a自己的服务器/1号服务器    
+6. 其他命令：https://wiki.filezilla-project.org/Command-line_arguments_(Client)     
 是不是很方便，这样就可以使用FileZilla的强大功能（其实吧：nodejs不支持主动模式，没人编写相应模块，我才搞成这样的）。
 然后点击保存就完成了    
 - ![成果图](https://github.com/shijunti19/a031-xiaolu/blob/master/images/add_2.png?raw=true)    
