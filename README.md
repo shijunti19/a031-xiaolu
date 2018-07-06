@@ -75,24 +75,24 @@
 - 标题：项目名称
 - 项目路径：填写文件夹、网址、程序地址也可以空。
 - 项目组：就是要归到manager文件夹下的哪个文件保存，文件名也是顶部的导航名，你可以写中文。
-- 项目图片：在用户配置目录（安装的时候填写的目录）新建images，然后把图片放进去，例如01.png，然后这里就写images/01.png，大小是固定的：360px*180px，也支持远程地址：http://www.a031.com/resources/home/images/jingbaotuan.jpg，必须https
+- 项目图片：在用户配置目录（安装的时候填写的目录）新建images，然后把图片放进去，例如01.png，然后这里就写images/01.png，大小是固定的：360px*180px，也支持远程地址，必须https，如：http://www.a031.com/resources/home/images/jingbaotuan.jpg
 - 项目备注：纯粹文字
 - 项目类型：文件夹就是项目根目录，执行程序就是exe所在目录，例如可以写QQ的，就会启动QQ。
 - 额外参数：是执行程序所需要的额外参数，例如你想要点击ftp上传，让他自动打开当前项目文件夹，就这样写：     
 1. 上面的a031.json里必须填写FileZilla所在目录，如："exe": "E:/Program Files/FileZilla FTP Client/filezilla.exe"
-2. ftp://FTP的账号:FTP密码@FTP的IP:21     
-   --local={{file_path}}     
-3. --local={{file_path}}是固定的，这样就行了    
-4. 换一种，你在FileZilla里新建一个文件夹a自己的服务器，然后新建站点1号3服务器   
-5. 额外参数你就写：--site=0/a自己的服务器/1号服务器    
-6. 其他命令：https://wiki.filezilla-project.org/Command-line_arguments_(Client)     
-是不是很方便，这样就可以使用FileZilla的强大功能（其实吧：nodejs不支持主动模式，没人编写相应模块，我才搞成这样的）。
+2.额外参数里写下面2行，一行一条命令：      
+ftp://FTP的账号:FTP密码@FTP的IP:21     
+--local={{file_path}}     
+3. --local={{file_path}}是固定的，{{file_path}}标示项目根目录，还有{{file}}标示当前文件地址    
+4. 换一种，你在FileZilla里新建一个文件夹：a自己的服务器，然后新建站点：1号服务器   
+5. 额外参数你就写：--site=0/a自己的服务器/1号服务器，其他命令看这里：https://wiki.filezilla-project.org/Command-line_arguments_(Client)     
+是不是很方便，这样就可以使用FileZilla的强大功能（其实吧：nodejs不支持主动模式，没人编写相应模块，我才搞成这样的）
 然后点击保存就完成了    
 - ![成果图](https://github.com/shijunti19/a031-xiaolu/blob/master/images/add_2.png?raw=true)    
 - 上面新建的文件都放在 自己填写的配置保存目录的manager 文件夹里
 - 全部使用读取文件处理，想要速度就上固态硬盘
-- manager/default.json 这个文件是默认的，如果不存在，系统会强制生成一个。
-- 还不懂的话问我，上面有联系QQ和邮箱，我慢慢完善文档。
+- manager/default.json 这个文件是默认的，如果不存在，系统会强制生成一个
+- 还不懂的话问我，上面有联系QQ和邮箱，我慢慢完善文档
 
 ### 建议和 DEBUG
 
