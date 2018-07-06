@@ -1,6 +1,7 @@
 # 介绍
 
-界面化的项目管理
+- 界面化的项目管理
+- [下载地址](https://marketplace.visualstudio.com/items?itemName=xiaolu.a031-xiaolu)
 
 # 安装
 
