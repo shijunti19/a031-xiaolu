@@ -77,7 +77,7 @@
 - 项目组：就是要归到manager文件夹下的哪个文件保存，文件名也是顶部的导航名，你可以写中文。
 - 项目图片：在用户配置目录（安装的时候填写的目录）新建images，然后把图片放进去，例如01.png，然后这里就写images/01.png，大小是固定的：360px*180px，也支持远程地址：http://www.a031.com/resources/home/images/jingbaotuan.jpg，必须https
 - 项目备注：纯粹文字
-- 项目类型：文件夹就是网站根目录，执行程序就是exe所在目录，例如可以写QQ的，就会启动QQ。
+- 项目类型：文件夹就是项目根目录，执行程序就是exe所在目录，例如可以写QQ的，就会启动QQ。
 - 额外参数：是执行程序所需要的额外参数，例如你想要点击ftp上传，就打开当前文件夹，就这样写：     
 上面的a031.json里必须填写FileZilla所在目录，如："exe": "E:/Program Files/FileZilla FTP Client/filezilla.exe"
  ftp://FTP的账号:FTP密码@FTP的IP:21     
