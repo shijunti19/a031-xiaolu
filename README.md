@@ -71,7 +71,7 @@
 ### 项目管理配置文件（manager）
 
 #### 使用说明
-- ![新建项目](https://github.com/shijunti19/a031-xiaolu/blob/master/images/add_1.jpg?raw=true)    
+- ![新建项目](https://github.com/shijunti19/a031-xiaolu/blob/master/images/add_1.png?raw=true)    
 - 标题：项目名称
 - 项目路径：填写文件夹、网址、程序地址也可以空。
 - 项目组：就是要归到manager文件夹下的哪个文件保存，文件名也是顶部的导航名，你可以写中文。
@@ -88,7 +88,7 @@
 其他命令：https://wiki.filezilla-project.org/Command-line_arguments_(Client)     
 是不是很方便，这样就可以使用FileZilla的强大功能（其实吧：nodejs不支持主动模式，没人编写相应模块，我才搞成这样的）。
 然后点击保存就完成了    
-- ![成果图](https://github.com/shijunti19/a031-xiaolu/blob/master/images/add_2.jpg?raw=true)    
+- ![成果图](https://github.com/shijunti19/a031-xiaolu/blob/master/images/add_2.png?raw=true)    
 - 上面新建的文件都放在 自己填写的配置保存目录的manager 文件夹里
 - 全部使用读取文件处理，想要速度就上固态硬盘
 - manager/default.json 这个文件是默认的，如果不存在，系统会强制生成一个。
