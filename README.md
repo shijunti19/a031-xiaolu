@@ -15,14 +15,16 @@
 
 ![界面截图](https://github.com/shijunti19/a031-xiaolu/blob/master/images/demo.png?raw=true)
 
+# 联系
+
+有任何问题联系 QQ：[527528007](http://sighttp.qq.com/authd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9)
+[![http://sighttp.qq.com/authd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9](http://wpa.qq.com/imgd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9&pic=53) ](http://sighttp.qq.com/authd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9)
+
 ## 更新
 
 - 2018-7-6
 
-有任何问题联系QQ：[527528007](http://sighttp.qq.com/authd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9)
-[![http://sighttp.qq.com/authd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9](http://wpa.qq.com/imgd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9&pic=53)  ](http://sighttp.qq.com/authd?IDKEY=718ba7bf0e155f2ca65d5fc7646c324d9e7f2a8a8f2f20f9)
-
-修复初始化错误，导致无法正常运行（已经安装但是无法运行的用户，把配置目录下的a031.json打开看下，如果是它是一个空数组，删了）
+修复初始化错误，导致无法正常运行（已经安装但是无法运行的用户，把配置目录下的 a031.json 打开看下，如果是它是一个空数组，删了）
 
 - 2018-7-5
   a031.json
